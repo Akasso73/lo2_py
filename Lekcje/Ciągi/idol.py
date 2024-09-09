@@ -22,7 +22,10 @@ def idol(tab, osoby):
                     elif k == osoby - 1:
                         return i+1
 
-tab = [[False, False, True, True], [True, False, True, True], [False, False, False, True], [False, False, False, False]]
+tab = [[False, False, True, True], 
+       [True, False, True, True], 
+       [False, False, False, True], 
+       [False, False, False, False]]
 osoby = 4
                     
 print(idol(tab, osoby)) # 2
